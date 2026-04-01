@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="90" fill="#FFD700" opacity="0.1"/>
+  
+  <!-- Shopping Bag with Campus Elements -->
+  <path d="M70 60h60v80c0 11-9 20-20 20H90c-11 0-20-9-20-20V60z" fill="#FFD700"/>
+  <path d="M70 60h60v-10c0-5.5-4.5-10-10-10H80c-5.5 0-10 4.5-10 10v10z" fill="#FFB300"/>
+  
+  <!-- Campus Building Silhouette -->
+  <path d="M85 80h30v40h-30z" fill="#FFB300"/>
+  <path d="M85 80l15-15 15 15" fill="#FFB300"/>
+  <path d="M90 90h20v5h-20z" fill="#FFD700"/>
+  <path d="M90 100h20v5h-20z" fill="#FFD700"/>
+  
+  <!-- Shopping Elements -->
+  <circle cx="120" cy="90" r="8" fill="#FFD700"/>
+  <path d="M115 90h10M120 85v10" stroke="#FFB300" stroke-width="2"/>
+  
+  <!-- T-Sell Text with Modern Typography -->
+  <text x="100" y="160" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFB300" text-anchor="middle">
+    <tspan x="100" dy="0">T-Sell</tspan>
+    <tspan x="100" dy="20" font-size="14" fill="#FFD700">Campus Marketplace</tspan>
+  </text>
+  
+  <!-- Decorative Elements -->
+  <circle cx="40" cy="40" r="4" fill="#FFD700" opacity="0.5"/>
+  <circle cx="160" cy="40" r="4" fill="#FFD700" opacity="0.5"/>
+  <circle cx="40" cy="160" r="4" fill="#FFD700" opacity="0.5"/>
+  <circle cx="160" cy="160" r="4" fill="#FFD700" opacity="0.5"/>
+</svg> 

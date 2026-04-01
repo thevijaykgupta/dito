@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tuffly.vercel.app/sitemap.xml 

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="card-pattern" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <!-- Corner decorations -->
+      <path d="M0 0h20v2H0z" fill="#FFD700" opacity="0.3"/>
+      <path d="M0 0v20h2V0z" fill="#FFD700" opacity="0.3"/>
+      <path d="M80 0h20v2H80z" fill="#FFD700" opacity="0.3"/>
+      <path d="M98 0v20h2V0z" fill="#FFD700" opacity="0.3"/>
+      <path d="M0 80h20v2H0z" fill="#FFD700" opacity="0.3"/>
+      <path d="M0 98v2h20V98z" fill="#FFD700" opacity="0.3"/>
+      <path d="M80 98h20v2H80z" fill="#FFD700" opacity="0.3"/>
+      <path d="M98 80v20h2V80z" fill="#FFD700" opacity="0.3"/>
+      
+      <!-- Center decoration -->
+      <circle cx="50" cy="50" r="2" fill="#FFD700" opacity="0.2"/>
+      <circle cx="50" cy="50" r="4" fill="none" stroke="#FFD700" stroke-width="1" opacity="0.2"/>
+      <circle cx="50" cy="50" r="6" fill="none" stroke="#FFD700" stroke-width="1" opacity="0.2"/>
+    </pattern>
+  </defs>
+  <rect x="0" y="0" width="100" height="100" fill="url(#card-pattern)"/>
+</svg> 

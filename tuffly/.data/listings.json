@@ -1,0 +1,31 @@
+[
+  {
+    "title": "tedf",
+    "description": "",
+    "price": 49,
+    "category": "snacks-beverages",
+    "brand": "",
+    "condition": "new",
+    "images": [
+      "/images/products/placeholder.png"
+    ],
+    "listingType": "sell",
+    "additionalMaterials": [],
+    "seller": {
+      "id": "default-seller",
+      "name": "Default Seller",
+      "profilePicture": "",
+      "isVerified": false
+    },
+    "location": "Cauvery - A Wing - Room 124",
+    "floor": "",
+    "isRentable": false,
+    "isAvailable": false,
+    "requiresApproval": true,
+    "createdAt": "2026-03-31T18:53:44.544Z",
+    "id": "1774983224544",
+    "views": 0,
+    "likes": 0,
+    "listingStatus": "active"
+  }
+]

@@ -1,0 +1,15 @@
+export const categories = [
+  { name: "Snacks & Beverages", slug: "snacks-beverages", image: "/images/products/chocolates.jpeg", color: "text-red-500" },
+  { name: "Electronics", slug: "electronics", image: "/images/products/electronics.jpg", color: "text-blue-500" },
+  { name: "Books & Study Material", slug: "books-study-material", image: "/images/products/study material.jpg", color: "text-amber-500" },
+  { name: "Stationery", slug: "stationery", image: "/images/products/stationery.jpg", color: "text-green-500" },
+  { name: "Clothes & Garments", slug: "clothes-garments", image: "/images/products/clothes and garments.jpg", color: "text-pink-500" },
+  { name: "Sports & Fitness", slug: "sports-fitness", image: "/images/products/sports and fitness.jpg", color: "text-cyan-500" },
+  { name: "Lab Equipment", slug: "lab-equipment", image: "/images/products/lab equipments.jpg", color: "text-indigo-500" },
+  { name: "Project Lending", slug: "project-lending", image: "/images/products/project lending.jpg", color: "text-teal-500" },
+  { name: "Gaming & Entertainment", slug: "gaming-entertainment", image: "/images/products/gaming and entertainment.jpg", color: "text-purple-500" },
+  { name: "Bicycles & Transport", slug: "bicycles-transport", image: "/images/products/ultrasonicsensors.jpeg", color: "text-lime-500" },
+  { name: "Medical & Health", slug: "medical-health", image: "/images/products/pc.jpg", color: "text-rose-500" },
+  { name: "Need Tutor", slug: "need-tutor", image: "/images/products/teaching mentor.jpg", color: "text-orange-500" },
+  { name: "Others", slug: "others", image: "/images/products/logo_new.jpg", color: "text-slate-500" },
+]; 
