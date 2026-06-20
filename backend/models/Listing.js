@@ -89,9 +89,38 @@ const listingSchema = new mongoose.Schema(
 
   status: {
     type: String,
-    enum: ["active", "sold", "hidden"],
+    enum: ["active", "sold", "hidden", "expired", "rented"],
     default: "active",
-  }
+  },
+  buyerConfirmed: {
+    type: Boolean,
+    default: false
+  },
+  buyerConfirmedAt: {
+    type: Date
+  },
+  expiresAt: {
+    type: Date,
+    default: () => new Date(Date.now() + 45 * 24 * 60 * 60 * 1000) // 45 days from now
+  },
+  renewals: {
+    type: Number,
+    default: 0
+  },
+  // Rental availability
+  availableDates: [{
+    date: Date,
+    blocked: { type: Boolean, default: false }
+  }],
+  rentalCalendar: [{
+    startDate: Date,
+    endDate: Date,
+    status: {
+      type: String,
+      enum: ["available", "requested", "booked"],
+      default: "available"
+    }
+  }]
 },
 {
   timestamps: true,
